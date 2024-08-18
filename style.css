@@ -1,0 +1,988 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+}
+.navbar-nav{
+    margin-top: 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+.navbar-nav:hover{
+    color: yellowgreen;
+}
+#img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/closeup_view_of_green_leaves_with_water_drops_hd_nature.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    margin-top: -30%;
+    margin-left: 22%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 900%;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 33%;
+    font-size: 250%;
+    margin-top: -1%;
+}
+@media screen and (max-width:767px){
+    h1{
+        color: white;
+        margin-top: -130%;
+        margin-left: 2%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 16%;
+        font-size: 170%;
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    h1{
+        color: white;
+        margin-top: -80%;
+        margin-left: 3%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 600%;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 13%;
+        font-size: 200%;
+        margin-top: -1%;
+    }
+}
+@media screen and (min-width:1024px){
+    h1{
+        color: white;
+        margin-top: -30%;
+        margin-left: 12%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 650%;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 22%;
+        font-size: 200%;
+        margin-top: -1%;
+    }
+}
+@media screen and (min-width:1280px){
+    h1{
+        color: white;
+        margin-top: -37%;
+        margin-left: 17%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 700%;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 26%;
+        font-size: 200%;
+        margin-top: -1%;
+    }     
+}
+@media screen and (min-width:1440px){
+    h1{
+        color: white;
+        margin-top: -30%;
+        margin-left: 22%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 900%;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 33%;
+        font-size: 250%;
+        margin-top: -1%;
+    }
+}
+.p1{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    color: green;
+}
+.p2{
+    margin-top: 3%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    color: green;
+    margin-left: 2%;
+}
+.p3{
+    margin-top: 3%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    color: green;
+    margin-left: 2%;
+}
+#img2{
+    width: 100%;
+    height: 45vh;
+    background-image: url(./img/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+}
+#img3{
+    width: 30%;
+    height: 30vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/c9dcd06d-79c5-4307-bd31-5e3756c2fd4c/Untitled+%28600+%C3%97+300+px%29.png?format=2500w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#img4{
+    width: 40%;
+    height: 25vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/aedb53ba-26e9-45ab-89a9-8f5d580818c6/CH+Logo+for+GOLD+2022-23.png?format=1000w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -14%;
+    margin-left: 32%;
+}
+#img5{
+    width: 20%;
+    height: 35vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/4c09565f-e05c-4e5d-b0f3-f722031dabfa/Spruce+It+Up+Logo+Official+2022.png?format=1500w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -15%;
+    margin-left: 77%;
+}
+@media screen and (max-width:767px){
+    #img2{
+        width: 120%;
+        height: 100vh;
+        background-image: url(./img/img3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3%;
+    }
+    #img3{
+        width: 90%;
+        height: 30vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/c9dcd06d-79c5-4307-bd31-5e3756c2fd4c/Untitled+%28600+%C3%97+300+px%29.png?format=2500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    #img4{
+        width: 110%;
+        height: 20vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/aedb53ba-26e9-45ab-89a9-8f5d580818c6/CH+Logo+for+GOLD+2022-23.png?format=1000w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 6%;
+        margin-left: -5%;
+    }
+    #img5{
+        width: 70%;
+        height: 35vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/4c09565f-e05c-4e5d-b0f3-f722031dabfa/Spruce+It+Up+Logo+Official+2022.png?format=1500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #img2{
+        width: 100%;
+        height: 54vh;
+        background-image: url(./img/img3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3%;
+    }
+    #img3{
+        width: 55%;
+        height: 30vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/c9dcd06d-79c5-4307-bd31-5e3756c2fd4c/Untitled+%28600+%C3%97+300+px%29.png?format=2500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: -1%;
+        margin-top: 10%;
+    }
+    #img4{
+        width: 100%;
+        height: 25vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/aedb53ba-26e9-45ab-89a9-8f5d580818c6/CH+Logo+for+GOLD+2022-23.png?format=1000w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -11%;
+        margin-left: 1%;
+    }
+    #img5{
+        width: 30%;
+        height: 20vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/4c09565f-e05c-4e5d-b0f3-f722031dabfa/Spruce+It+Up+Logo+Official+2022.png?format=1500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -60%;
+        margin-left: 63%;
+    }
+}
+@media screen and (min-width:1024px){
+    #img2{
+        width: 100%;
+        height: 47vh;
+        background-image: url(./img/img3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3%;
+    }
+    #img3{
+        width: 30%;
+        height: 30vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/c9dcd06d-79c5-4307-bd31-5e3756c2fd4c/Untitled+%28600+%C3%97+300+px%29.png?format=2500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: -1%;
+        margin-top: 5%;
+    }
+    #img4{
+        width: 55%;
+        height: 25vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/aedb53ba-26e9-45ab-89a9-8f5d580818c6/CH+Logo+for+GOLD+2022-23.png?format=1000w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -15%;
+        margin-left: 25%;
+    }
+    #img5{
+        width: 20%;
+        height: 35vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/4c09565f-e05c-4e5d-b0f3-f722031dabfa/Spruce+It+Up+Logo+Official+2022.png?format=1500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -17%;
+        margin-left: 80%;
+    }
+}
+@media screen and (min-width:1280px){
+    #img2{
+        width: 100%;
+        height: 45vh;
+        background-image: url(./img/img3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3%;
+    }
+    #img3{
+        width: 30%;
+        height: 30vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/c9dcd06d-79c5-4307-bd31-5e3756c2fd4c/Untitled+%28600+%C3%97+300+px%29.png?format=2500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: -1%;
+        margin-top: 5%;
+    }
+    #img4{
+        width: 45%;
+        height: 25vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/aedb53ba-26e9-45ab-89a9-8f5d580818c6/CH+Logo+for+GOLD+2022-23.png?format=1000w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -18%;
+        margin-left: 30%;
+    }
+    #img5{
+        width: 20%;
+        height: 30vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/4c09565f-e05c-4e5d-b0f3-f722031dabfa/Spruce+It+Up+Logo+Official+2022.png?format=1500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -16%;
+        margin-left: 79%;
+    }
+}
+@media screen and (min-width:1440px){
+    #img2{
+        width: 100%;
+        height: 45vh;
+        background-image: url(./img/img3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3%;
+    }
+    #img3{
+        width: 30%;
+        height: 30vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/c9dcd06d-79c5-4307-bd31-5e3756c2fd4c/Untitled+%28600+%C3%97+300+px%29.png?format=2500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #img4{
+        width: 40%;
+        height: 25vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/aedb53ba-26e9-45ab-89a9-8f5d580818c6/CH+Logo+for+GOLD+2022-23.png?format=1000w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -14%;
+        margin-left: 32%;
+    }
+    #img5{
+        width: 20%;
+        height: 35vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/4c09565f-e05c-4e5d-b0f3-f722031dabfa/Spruce+It+Up+Logo+Official+2022.png?format=1500w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -15%;
+        margin-left: 77%;
+    }
+}
+#img6{
+    width: 75%;
+    height: 45vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 25%;
+    margin-left: 12%;
+}
+#img7{
+    width: 75%;
+    height: 45vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 120%;
+    margin-top: -70%;
+}
+#img8{
+    width: 75%;
+    height: 45vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 230%;
+    margin-top: -70%;
+}
+@media screen and (max-width:767px){
+    #img6{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 15%;
+        margin-left: 12%;
+    }
+    #img7{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    #img8{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #img6{
+        width: 110%;
+        height: 25vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 50%;
+        margin-left: -2%;
+    }
+    #img7{
+        width: 110%;
+        height: 25vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 105%;
+        margin-top: -105%;
+    }
+    #img8{
+        width: 110%;
+        height: 25vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 210%;
+        margin-top: -105%;
+    }
+}
+@media screen and (min-width:1024px){
+    #img6{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 25%;
+        margin-left: 12%;
+    }
+    #img7{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 120%;
+        margin-top: -80%;
+    }
+    #img8{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 230%;
+        margin-top: -82%;
+    }
+}
+@media screen and (min-width:1280px){
+    #img6{
+        width: 90%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 25%;
+        margin-left: 12%;
+    }
+    #img7{
+        width: 90%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 120%;
+        margin-top: -85%;
+    }
+    #img8{
+        width: 90%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 220%;
+        margin-top: -86%;
+    }
+}
+@media screen and (min-width:1440px){
+    #img6{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 25%;
+        margin-left: 12%;
+    }
+    #img7{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 120%;
+        margin-top: -70%;
+    }
+    #img8{
+        width: 75%;
+        height: 45vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/1647301173916-147JZGRVGCKGWO4IM98Z/Scape+It+Up+Logo+Official+2022.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 230%;
+        margin-top: -70%;
+    }
+}
+#image{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./img/Capture.PNG);
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+}
+#image1{
+    width: 40%;
+    height: 34vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/a1ee5853-7fdb-43ab-8016-1fd00e82da4f/15+year+video+thumbnail+%284%29.png?format=750w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+    margin-left: -10%;
+}
+h2{
+    color: green;
+    margin-top: 14%;
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+}
+@media screen and (max-width:767px){
+    #image1{
+        width: 90%;
+        height: 34vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/a1ee5853-7fdb-43ab-8016-1fd00e82da4f/15+year+video+thumbnail+%284%29.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 18%;
+        margin-left: 5%;
+    }
+    h2{
+        color: green;
+        margin-top: 14%;
+        margin-left: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 150%;
+    } 
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #image1{
+        width: 42%;
+        height: 34vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/a1ee5853-7fdb-43ab-8016-1fd00e82da4f/15+year+video+thumbnail+%284%29.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+    h2{
+        color: green;
+        margin-top: 14%;
+        margin-left: 40%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 160%;
+    }
+}
+@media screen and (min-width:1024px){
+    #image1{
+        width: 40%;
+        height: 40vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/a1ee5853-7fdb-43ab-8016-1fd00e82da4f/15+year+video+thumbnail+%284%29.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+    h2{
+        color: green;
+        margin-top: 14%;
+        margin-left: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 160%;
+    }
+}
+@media screen and (min-width:1280px){
+    #image1{
+        width: 40%;
+        height: 34vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/a1ee5853-7fdb-43ab-8016-1fd00e82da4f/15+year+video+thumbnail+%284%29.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7%;
+        margin-left: -1%;
+    }
+    h2{
+        color: green;
+        margin-top: 14%;
+        margin-left: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 200%;
+    }
+}
+@media screen and (min-width:1440px){
+    #image1{
+        width: 40%;
+        height: 34vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4760bc476df0333ab15d9b/a1ee5853-7fdb-43ab-8016-1fd00e82da4f/15+year+video+thumbnail+%284%29.png?format=750w);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 7%;
+        margin-left: -10%;
+    }
+    h2{
+        color: green;
+        margin-top: 14%;
+        margin-left: 25%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 250%;
+    }
+}
+#img9{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./img/Capture12.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+h3{
+    margin-top: 3%;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+    font-size: 170%;
+}
+@media screen and (max-width:767px){
+    h3{
+        margin-top: 12%;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;  
+        font-size: 150%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    h3{
+        margin-top: 5%;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;  
+        font-size: 145%;
+        margin-left: 1%;
+    }
+}
+@media screen and (min-width:124px){
+    h3{
+        margin-top: 4%;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;  
+        font-size: 155%;
+        margin-left: 1%;
+    } 
+}
+@media screen and (min-width:1280px){
+    h3{
+        margin-top: 3%;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;  
+        font-size: 140%;
+        margin-left: 1%;
+    }
+}
+@media screen and (min-width:1440px){
+    h3{
+        margin-top: 3%;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;  
+        font-size: 170%;
+        margin-left: 1%;
+    }
+}
+#img10{
+    width: 90%;
+    height: 35vh;
+    background-image: url(./img/14.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+@media screen and (max-width:767px){
+    #img10{
+        width: 80%;
+        height: 45vh;
+        background-image: url(./img/14.PNG);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #img10{
+        width: 90%;
+        height: 18vh;
+        background-image: url(./img/14.PNG);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+}
+h5{
+   margin-top: 3%;
+   margin-left: 38%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 200%;
+}
+.para{
+    margin-left: 39%;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold; 
+   font-size: 80%;
+}
+input{
+    width: 12%;
+    height: 5vh;
+    margin-left: 39%;
+    margin-top: 2%;
+    outline: none;
+}
+#but{
+    width: 6%;
+    height: 5.3vh;
+    margin-top: -0.5%;
+}
+@media screen and (max-width:767px){
+    h5{
+        margin-top: 10%;
+        margin-left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 140%;
+     }
+     .para{
+         margin-left: 3%;
+         font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+        font-size: 65%;
+     }
+     input{
+         width: 65%;
+         height: 9vh;
+         margin-left: 9%;
+         margin-top: 8%;
+         outline: none;
+     }
+     #but{
+         width: 40%;
+         height: 8vh;
+         margin-top: 45%;
+         margin-left: -55%;
+     }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    h5{
+        margin-top: 6%;
+        margin-left: 18%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 220%;
+     }
+     .para{
+         margin-left: 19%;
+         font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+        font-size: 90%;
+     }
+     input{
+         width: 35%;
+         height: 7vh;
+         margin-left: 29%;
+         margin-top: 8%;
+         outline: none;
+     }
+     #but{
+         width: 22%;
+         height: 6vh;
+         margin-top: 30%;
+         margin-left: -29%;
+     }
+}
+@media screen and (min-width:1024px){
+    h5{
+        margin-top: 4%;
+        margin-left: 28%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 220%;
+     }
+     .para{
+         margin-left: 29%;
+         font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+        font-size: 90%;
+     }
+     input{
+         width: 20%;
+         height: 9vh;
+         margin-left: 35%;
+         margin-top: 3%;
+         outline: none;
+     }
+     #but{
+         width: 10%;
+         height: 9vh;
+         margin-top: -0.3%;
+     }
+}
+@media screen and (min-width:1280px){
+    h5{
+        margin-top: 3%;
+        margin-left: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 230%;
+     }
+     .para{
+         margin-left: 32%;
+         font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+        font-size: 90%;
+     }
+     input{
+         width: 17%;
+         height: 7vh;
+         margin-left: 34%;
+         margin-top: 5%;
+         outline: none;
+     }
+     #but{
+         width: 10%;
+         height: 7vh;
+         margin-top: -0.5%;
+     }
+}
+@media screen and (min-width:1440px){
+    h5{
+   margin-top: 3%;
+   margin-left: 38%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 200%;
+}
+.para{
+    margin-left: 39%;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold; 
+   font-size: 80%;
+}
+input{
+    width: 12%;
+    height: 5vh;
+    margin-left: 39%;
+    margin-top: 2%;
+    outline: none;
+}
+#but{
+    width: 6%;
+    height: 5.3vh;
+    margin-top: -0.5%;
+}
+}
+#capture{
+    width: 100%;
+    height: 20vh;
+    background-image: url(./img/jg.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+}
